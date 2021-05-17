@@ -1,4 +1,4 @@
-package person.pjzero.research.jackson;
+package org.modern.config.research.jackson;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

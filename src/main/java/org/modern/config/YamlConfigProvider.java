@@ -1,10 +1,10 @@
-package person.pjzero.cfman;
+package org.modern.config;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-import person.pjzero.cfman.exception.BindException;
-import person.pjzero.cfman.utils.JsonNodeUtils;
+import org.modern.config.exception.BindException;
+import org.modern.config.utils.JsonNodeUtils;
 
 import java.io.File;
 import java.io.IOException;

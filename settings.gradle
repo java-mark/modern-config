@@ -1,2 +1,3 @@
-rootProject.name = 'cfman'
+rootProject.name = 'modern-config'
 
+//include 'modern-config'

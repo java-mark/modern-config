@@ -1,4 +1,4 @@
-package person.pjzero.cfman.exception;
+package org.modern.config.exception;
 
 /**
  * @author pengjian05

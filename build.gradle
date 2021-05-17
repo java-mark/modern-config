@@ -1,8 +1,15 @@
+buildscript {
+    ext {
+        artifactName = "modern-config"
+    }
+}
+
+
 plugins {
     id 'java'
 }
 
-group 'person.pjzero'
+group 'org.modern.config'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8

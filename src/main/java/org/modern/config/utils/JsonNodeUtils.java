@@ -1,9 +1,8 @@
-package person.pjzero.cfman.utils;
+package org.modern.config.utils;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
-import person.pjzero.cfman.exception.PointPathException;
+import org.modern.config.exception.PointPathException;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package person.pjzero.cfman;
+package org.modern.config;
 
 import static org.junit.jupiter.api.Assertions.*;
 
