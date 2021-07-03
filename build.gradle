@@ -51,13 +51,8 @@ publishing {
 
     repositories {
         maven {
-            name = "remoteRepo"
-            url = "https://my.org/repo"
-        }
-
-        maven {
             name = 'localRepo'
-            url = layout.buildDirectory.dir("repo")
+            url = "/Users/pengjian05/.m2/repository"
         }
     }
 }
