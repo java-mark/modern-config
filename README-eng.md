@@ -1,19 +1,19 @@
 [toc]
 
-[English](./README-eng.md)
+[中文版](./README.md)
 
-# 介绍
+# Introduce
 
-一个简单有效的配置文件库
+This is a simple config library of Java.
 
 # Feature
-1. 简单，容易使用
-2. 仿Spring对配置文件的操作，能够对某一节绑定对象。
-3. 支持以下数据源
-    - 本地json文件
-    - 本地yaml文件
+1. Simple and easy
+2. Bind segment to POJO like Spring Configuration
+3. Support data source
+    - local file of json
+    - local file of yaml
 
-# 样例
+# Sample of usage
 
 ## IMPORT
 
@@ -51,16 +51,16 @@ class SimpleConfigProviderExample {
 # TODO
 
 ## Version 0.2
-- [ ] 发布到maven镜像仓库
-- [ ] 支持bind checker
-- [ ] 支持jackson config source(支持url等数据源)
-- [ ] 更多的文档
-- [ ] 更多的单测
+- [ ] Release to mvn repository
+- [ ] Support bind checker
+- [ ] Support jackson readTree from diff source
+- [ ] More doc
+- [ ] More test unit
 
 ## Version 0.3
-- [ ] 支持环境变量设置配置文件
-- [ ] 支持dev,product等环境切换
+- [ ] Support read config file path from ENV
+- [ ] Change dev, project etc simply
 
 
-# 参考
+# reference
 [cfg4j](https://github.com/cfg4j/cfg4j)
