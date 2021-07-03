@@ -1,5 +1,6 @@
 package org.modern.config.research.jackson;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import lombok.Data;
@@ -20,8 +21,8 @@ public class JacksonYamlExample {
     void parse() throws IOException {
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
         mapper.findAndRegisterModules();
-        Order order = mapper.readValue(new File("src/test/resources/research/jackson.yaml"),
-                Order.class);
+        JsonNode res = mapper.readTree(new File("src/test/resources/research/jackson.yaml"));
+        Order order = mapper.treeToValue(res, Order.class);
         log.info("order content={}", order);
     }
 
