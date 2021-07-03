@@ -1,6 +1,6 @@
-package org.modern.config.provider;
+package org.mark.config.provider;
 
-import org.modern.config.exception.ConfigBindException;
+import org.mark.config.exception.ConfigBindException;
 
 /**
  * @author pengjian05

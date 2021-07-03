@@ -1,6 +1,4 @@
-package org.modern.config.source;
-
-import java.io.IOException;
+package org.mark.config.source;
 
 public interface ConfigSource {
     /**

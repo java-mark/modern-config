@@ -1,6 +1,6 @@
-package org.modern.config.exception;
+package org.mark.config.exception;
 
-import org.modern.config.source.ConfigNode;
+import org.mark.config.source.ConfigNode;
 
 public class ConfigBindException extends RuntimeException {
     private static final String MSG = "Fail to bind %s to class=%s";

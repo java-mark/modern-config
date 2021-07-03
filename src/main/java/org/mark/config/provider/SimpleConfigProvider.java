@@ -1,9 +1,9 @@
-package org.modern.config.provider;
+package org.mark.config.provider;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import org.modern.config.exception.ConfigBindException;
-import org.modern.config.source.ConfigNode;
-import org.modern.config.source.ConfigSource;
+import org.mark.config.exception.ConfigBindException;
+import org.mark.config.source.ConfigNode;
+import org.mark.config.source.ConfigSource;
 
 /**
  * @author pengjian05

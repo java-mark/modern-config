@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        artifactName = "modern-config"
+        artifactName = "mark-config"
     }
 }
 
@@ -10,7 +10,7 @@ plugins {
     id 'maven-publish'
 }
 
-group 'org.modern.config'
+group 'org.mark.config'
 version '1.0'
 
 sourceCompatibility = 1.8
@@ -22,15 +22,39 @@ repositories {
 publishing {
     publications {
         myApp(MavenPublication) {
-            groupId = 'org.modern'
-            artifactId = 'modern-config'
-            version = '0.0.1'
+            groupId = 'org.mark'
+            artifactId = 'mark-config'
+            version = '0.1.0'
 
             from components.java
+
+            pom {
+                name = 'mark-config'
+                description = 'mark config of java'
+                url = 'https://github.com/java-mark/mark-config'
+                licenses {
+                    license {
+                        name = 'The Apache License, Version 2.0'
+                        url = 'https://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id = 'pjzero'
+                        name = 'pjzero'
+                        email = 'pjwhusir@gmail.com'
+                    }
+                }
+            }
         }
     }
 
     repositories {
+        maven {
+            name = "remoteRepo"
+            url = "https://my.org/repo"
+        }
+
         maven {
             name = 'localRepo'
             url = layout.buildDirectory.dir("repo")

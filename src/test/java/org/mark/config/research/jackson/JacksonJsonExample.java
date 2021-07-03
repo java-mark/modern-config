@@ -1,4 +1,4 @@
-package org.modern.config.research.jackson;
+package org.mark.config.research.jackson;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

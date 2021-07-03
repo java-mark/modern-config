@@ -1,4 +1,4 @@
-package org.modern.config.source;
+package org.mark.config.source;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;

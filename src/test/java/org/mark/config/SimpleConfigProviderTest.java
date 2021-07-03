@@ -1,13 +1,11 @@
-package org.modern.config;
-
-import static org.junit.jupiter.api.Assertions.*;
+package org.mark.config;
 
 import lombok.Data;
 import lombok.ToString;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
-import org.modern.config.provider.SimpleConfigProvider;
-import org.modern.config.source.file.YamlFileConfigSource;
+import org.mark.config.provider.SimpleConfigProvider;
+import org.mark.config.source.file.YamlFileConfigSource;
 
 import java.io.IOException;
 

@@ -1,7 +1,6 @@
-package org.modern.config.source.file;
+package org.mark.config.source.file;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.modern.config.source.ConfigSource;
+import org.mark.config.source.ConfigSource;
 
 import java.io.File;
 import java.io.IOException;
